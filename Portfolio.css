@@ -1,0 +1,41 @@
+header {
+    background: #000000;
+}
+
+body {
+    margin: 3;
+    padding: 0;
+    font-size: 15px;
+    font-style: oblique;
+    color: White;
+    background-image: url("3d-cirlce-widescreen-desktop-backgrounds.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+    min-width:120px;
+    max-width:5000px;
+}
+
+nav {
+    background-color: #55a2d3;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    color: #ffffff;
+    background-color: #55a2d3;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+}
