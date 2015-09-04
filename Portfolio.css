@@ -2,7 +2,7 @@ body {
     margin: 3;
     padding: 0;
     font-size: 20px;
-    font-style: oblique;
+    font-family:'Cinzel', serif;
     color: White;
     background-image: url("RainbowSound.jpg");
     background-size: cover;
@@ -25,6 +25,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     list-style-type: none;
+
 }
 
 nav > ul > li > a {
@@ -34,4 +35,8 @@ nav > ul > li > a {
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
+}
+
+#projectstable td {
+    vertical-align: top;
 }
