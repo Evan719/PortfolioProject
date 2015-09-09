@@ -10,7 +10,7 @@ body {
     min-width:120px;
     max-width:5000px;
 }
-img {
+.picture {
     border: 2px solid white;
     padding: 1px;
 }
@@ -43,4 +43,19 @@ nav > ul > li > a {
 
 #projectstable td {
     vertical-align: top;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.item {
+    order: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
 }
